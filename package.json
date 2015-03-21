@@ -1,0 +1,16 @@
+{
+  "name": "shopkins",
+  "version": "0.0.1",
+  "description": "a shopkins website",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine-node spec/test.js --captureExceptions --verbose",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "jade": "^1.9.2"
+  }
+}

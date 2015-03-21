@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title Shopkins
+    link(href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css", rel="stylesheet")
+  body
+    ul.nav.nav-tabs
+      li(class={active: tab == "home"})
+        a(href="/") Home
+      li(class={active: tab == "fruit_and_veg"})
+        a(href="/fruit_and_veg") Fruit and Vegatables
+    
+    .container
+      h2= title
+      block content
+    
