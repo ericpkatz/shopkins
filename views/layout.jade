@@ -7,8 +7,9 @@ html
     ul.nav.nav-tabs
       li(class={active: tab == "home"})
         a(href="/") Home
-      li(class={active: tab == "fruit_and_veg"})
-        a(href="/fruit_and_veg") Fruit and Vegatables
+      for category in categories
+        li(class={active: tab == category.id})
+          a(href=category.id)= category.name
     
     .container
       h2= title
