@@ -12,6 +12,8 @@
   "dependencies": {
     "express": "^4.12.3",
     "jade": "^1.9.2",
+    "lwip": "0.0.6",
+    "request": "^2.54.0",
     "underscore": "^1.8.2"
   }
 }

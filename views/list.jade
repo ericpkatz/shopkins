@@ -3,7 +3,13 @@ block content
   ul.list-group
     for shopkin in shopkins
       li.list-group-item
-        h5= shopkin.name
-        = shopkin.number
-        span.badge= shopkin.value
-  
+        .row
+          .col-md-12
+            h4= shopkin.name
+        .row
+          .col-md-3
+            img(src="/processed/"+ shopkin.number +".jpg")
+          .col-md-3
+            = shopkin.number
+          .col-md-2.col-md-offset-4
+            span.badge(style="display:block")= shopkin.value

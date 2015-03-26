@@ -1,6 +1,10 @@
 var express = require("express");
 var fs = require("fs");
 var _ = require("underscore");
+var dataProvider = require("./data/provider");
+var imageImporter = require("./imageImporter");
+
+imageImporter.process();
 
 var categories = [
   { 
@@ -26,14 +30,15 @@ var app = express();
 app.set("view engine", "jade");
 
 var renderView = function(title, category, req, res){
-  fs.readFile(__dirname + "/data/shopkins.js", function(err, data){
-    var shopkins = JSON.parse(data.toString()).shopkins;
-    shopkins = _.filter(shopkins, function(shopkin){
+  dataProvider(function(data){
+    var shopkins = _.filter(data, function(shopkin){
       return shopkin.category == category;
     });
     res.render("list", {shopkins: shopkins, tab: category, title: title});  
   });
 };
+
+app.use(express.static("images"));
 
 app.use(function(req, res, next){
  res.locals.categories = categories;
