@@ -4,7 +4,6 @@ var request = require("request");
 var fs = require("fs");
 var path = require("path");
 var processor = require("./imageProcessor");
-var Q = require("q");
 module.exports = {
   process: process
 };
@@ -20,7 +19,7 @@ function ensureDirectories(){
 
 function process() {
   ensureDirectories();
-  provider(function(data) {
+  provider.shopkins().then(function(data) {
     var withImages = _.filter(data, function(d) {
       return d.imageUrl
     });

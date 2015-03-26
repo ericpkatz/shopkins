@@ -30,7 +30,7 @@ var app = express();
 app.set("view engine", "jade");
 
 var renderView = function(title, category, req, res){
-  dataProvider(function(data){
+  dataProvider.shopkins().then(function(data){
     var shopkins = _.filter(data, function(shopkin){
       return shopkin.category == category;
     });
