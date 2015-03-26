@@ -26,13 +26,15 @@
             "name": "Corny Cob",
             "number": "2-004",
             "category": "fruit_and_veg",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl": "http://www.toygeniesurprises.com/file/2014/12/Shopkins-Season-2-Corny-Cob-2-004.png"
         },
         {
             "name": "Garlic Rose",
             "number": "2-005",
             "category": "fruit_and_veg",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://galleryplus.ebayimg.com/ws/web/331392481473_1_0_1/1000x1000.jpg"
         },
         {
             "name": "Boo-Hoo Onion",
