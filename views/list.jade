@@ -13,4 +13,13 @@ block content
           .col-md-3
             = shopkin.number
           .col-md-2.col-md-offset-4
-            span.badge(style="display:block")= shopkin.value
+            .label(
+              style="display:block", 
+              class={
+                "label-default": shopkin.value=="common",
+                "label-warning": shopkin.value=="ultra_rare",
+                "label-success": shopkin.value=="rare",
+                }
+            )
+              h5
+                = shopkin.value

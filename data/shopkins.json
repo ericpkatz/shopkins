@@ -27,7 +27,7 @@
             "number": "2-004",
             "category": "fruit_and_veg",
             "value": "rare",
-            "imageUrl": "http://www.toygeniesurprises.com/file/2014/12/Shopkins-Season-2-Corny-Cob-2-004.png"
+            "imageUrl": "http://ecx.images-amazon.com/images/I/51wycUt2u4L.jpg"
         },
         {
             "name": "Garlic Rose",
@@ -40,68 +40,79 @@
             "name": "Boo-Hoo Onion",
             "number": "2-006",
             "category": "fruit_and_veg",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://i.ebayimg.com/00/s/Nzg2WDc4NQ==/z/85kAAOSwmrlUtYDf/$_35.JPG"
         },
         {
             "name": "Dippy Avocado",
             "number": "2-007",
             "category": "fruit_and_veg",
-            "value": "common"
+            "value": "common",
+            "imageUrl":"http://i.ebayimg.com/00/s/Nzg3WDY0NQ==/z/FWsAAOSw2XFUc2CU/$_1.JPG"
         },
         {
             "name": "Silly Chilli",
             "number": "2-008",
             "category": "fruit_and_veg",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://thumbs4.ebaystatic.com/m/muNwevfokL3wfmgu8PXEGXg/140.jpg"
         },
         {
             "name": "Chloe Flower",
             "number": "2-009",
             "category": "fruit_and_veg",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl": "http://thumbs3.picclick.com/d/l400/pict/221717948478_/Shopkins-Series-Season-2-Fruit-Veg-CHLOE-FLOWER.jpg" 
         },
         {
             "name": "Sour Lemon",
             "number": "2-010",
             "category": "fruit_and_veg",
             "value": "ultra_rare",
-            "glitz": true
+            "glitz": true,
+            "imageUrl": "http://thumbs3.ebaystatic.com/d/l225/m/m7CnrVg5lFyuVz4DIo8GmAw.jpg"
         },
         {
             "name": "Juicy Orange",
             "number": "2-011",
             "category": "fruit_and_veg",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://thumbs2.picclick.com/d/l400/pict/221719797913_/Shopkins-Series-Season-2-Fruit-Veg-JUICY-ORANGE.jpg"
         },
         {
             "name": "Corny Cob",
             "number": "2-0012",
             "category": "fruit_and_veg",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl": "http://i.ebayimg.com/00/s/Nzg2WDY5Nw==/z/PZIAAOSwa39UtX-r/$_1.JPG"
         },
         {
             "name": "Garlic Rose",
             "number": "2-013",
             "category": "fruit_and_veg",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://thumbs1.ebaystatic.com/d/l225/m/mWNRFEv943RZJDryPhy27Pw.jpg"
         },
         {
             "name": "Boo-Hoo Onion",
             "number": "2-014",
             "category": "fruit_and_veg",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://i.ebayimg.com/00/s/Nzg3WDc1Mg==/z/vt4AAOSw0vBUc2CW/$_1.JPG"
         },
         {
             "name": "Dippy Avocado",
             "number": "2-015",
             "category": "fruit_and_veg",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://thumbs4.picclick.com/d/l400/pict/191512727275_/NEW-Shopkins-Season-2-Moose-Toys-2-015-Purple.jpg"
         },
         {
             "name": "Silly Chilli",
             "number": "2-016",
             "category": "fruit_and_veg",
-            "value": "common"
+            "value": "common",
+            "imageUrl" : "http://i.ebayimg.com/00/s/MTAzMlgxNjAw/z/ekgAAOSwg3FUe1ov/$_35.JPG"
         },
         {
             "name": "Toasty Pop",
