@@ -1,0 +1,26 @@
+<ul class="list-group">
+ <li class="list-group-item" ng-repeat="shopkin in shopkins">
+  <div class="row">
+    <div class="col-md-12">
+      <h4>
+        {{ shopkin.name }}
+      </h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <div ng-if="shopkin.imageUrl">
+        <img ng-src="/processed/{{shopkin.number}}.jpg" />
+      </div>
+    </div>
+    <div class="col-md-3">
+      {{ shopkin.number }}
+    </div>
+    <div class="col-md-2 col-md-offset-4">
+      <span class="label" style="display:block" ng-class='{"label-default": shopkin.value=="common", "label-warning": shopkin.value=="ultra_rare", "label-success": shopkin.value=="rare"}'>
+       <h5>{{ shopkin.value }}</h5> 
+      </span>
+    </div>
+  </div>
+ </li> 
+</ul>

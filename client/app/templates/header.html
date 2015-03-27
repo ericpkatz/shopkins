@@ -1,0 +1,11 @@
+<ul class="nav nav-tabs">
+  <li ng-class="{ active: HeaderSvc.getTab() == '/'}">
+    <a href="/" ng-click="HeaderSvc.setTab('/')">Home</a>
+  </li>
+  <li ng-repeat="category in categories" ng-class="{ active : HeaderSvc.getTab() == category.id}">
+      <a ng-href="/categories/{{category.id}}"> 
+        <span class="glyphicon glyphicon-heart"></span>
+        {{ category.name }}
+      </a>
+  </li>
+</ul>
