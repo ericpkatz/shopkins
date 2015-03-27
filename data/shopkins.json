@@ -118,113 +118,131 @@
             "name": "Toasty Pop",
             "number": "2-017",
             "category": "homewares",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://thumbs4.ebaystatic.com/d/l225/m/mpMbiM1e5ykslHJsIzLK0SQ.jpg"
         },
         {
             "name": "Brenda Blender",
             "number": "2-018",
             "category": "homewares",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl":"http://ecx.images-amazon.com/images/I/31yY4BISbBL.jpg"
         },
         {
             "name": "Coffee Drip",
             "number": "2-019",
             "category": "homewares",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://i.ebayimg.com/00/s/Nzg3WDc1OA==/z/~3oAAOSw0e9UtYDk/$_35.JPG"
         },
         {
             "name": "Saucy Pan",
             "number": "2-020",
             "category": "homewares",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl":"http://i.ebayimg.com/00/s/MTA4NlgxNjAw/z/1mEAAOSw2s1UzDNn/$_35.JPG"
         },
         {
             "name": "Ma Kettle",
             "number": "2-021",
             "category": "homewares",
-            "value": "common"
+            "value": "common",
+            "imageUrl":"http://i.ebayimg.com/00/s/Nzg2WDg4Mg==/z/cREAAOSw0vBUh5L~/$_1.JPG"
         },
         {
             "name": "Zappy Microwave",
             "number": "2-022",
             "category": "homewares",
             "value": "ultra_rare",
-            "glitz": true
+            "glitz": true,
+            "imageUrl":"http://thumbs4.picclick.com/d/l400/pict/221723245119_/Shopkins-Series-Season-2-Homewares-ZAPPY-MICROWAVE-2-022-Ultra.jpg"
         },
         {
             "name": "Lisa Litter",
             "number": "2-023",
             "category": "homewares",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://i.ebayimg.com/00/s/NjAwWDQ0NQ==/z/KQkAAOSwnDxUp0zA/$_1.JPG"
         },
         {
             "name": "Lana Lamp",
             "number": "2-024",
             "category": "homewares",
             "value": "ultra_rare",
-            "glitz": true
+            "glitz": true,
+            "imageUrl": "http://thumbs1.picclick.com/d/l400/pict/221719762644_/Shopkins-Series-Season-2-Homewares-LANA-LAMP-2-024-Ultra.jpg"
         },
         {
             "name": "Sizzles",
             "number": "2-025",
             "category": "homewares",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl": "https://s-media-cache-ak0.pinimg.com/736x/86/bc/5a/86bc5a8adccb69af78c084056890ae28.jpg"
         },
         {
             "name": "Toasty Pop",
             "number": "2-026",
             "category": "homewares",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://thumbs1.ebaystatic.com/m/myxnVECqSagKwWWhij6XsZA/140.jpg"
         },
         {
             "name": "Brenda Blender",
             "number": "2-027",
             "category": "homewares",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl": "http://thumbs2.picclick.com/d/l400/pict/400888101521_/NEW-Shopkins-Season-2-Moose-Toys-Rare-2-027.jpg"
         },
         {
             "name": "Coffee Drip",
             "number": "2-028",
             "category": "homewares",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://i.ebayimg.com/00/s/Nzg2WDc0Mg==/z/rt8AAOSwWKtUtYDk/$_35.JPG"
         },
         {
             "name": "Saucy Pan",
             "number": "2-029",
             "category": "homewares",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl": "http://thumbs2.ebaystatic.com/d/l225/m/mztOSm2mZqcf0ZIR_bXlEaA.jpg"
         },
         {
             "name": "Ma Kettle",
             "number": "2-030",
             "category": "homewares",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://i.ebayimg.com/00/s/NjAwWDU2MA==/z/NooAAOSwkNZUp05S/$_35.JPG"
         },
         {
             "name": "Zappy Microwave",
             "number": "2-031",
             "category": "homewares",
             "value": "ultra_rare",
-            "glitz": true
+            "glitz": true,
+            "imageUrl": "http://i.ebayimg.com/00/s/NTcxWDkwMg==/z/W1cAAOSwNSxU6Twl/$_1.JPG"
         },
         {
             "name": "Lisa Litter",
             "number": "2-032",
             "category": "homewares",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://i.ebayimg.com/00/s/Nzg3WDc1MA==/z/S4IAAOSwrklU4Qf9/$_1.JPG"
         },
         {
             "name": "Lana Lamp",
             "number": "2-033",
             "category": "homewares",
             "value": "ultra_rare",
-            "glitz": true
+            "glitz": true,
+            "imageUrl": "http://thumbs1.ebaystatic.com/d/l225/m/m0gSVsYnBDzr1gUyHY0vHEw.jpg"
         },
         {
             "name": "Sizzles",
             "number": "2-034",
             "category": "homewares",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl" : "http://i.ebayimg.com/00/s/MTA4NlgxNjAw/z/JTEAAOSwnDxUcjTH/$_35.JPG"
         },
         {
             "name": "Slick Breadstick",
