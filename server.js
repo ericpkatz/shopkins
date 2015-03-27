@@ -29,12 +29,15 @@ var app = express();
 
 app.set("view engine", "jade");
 
-var renderView = function(title, category, req, res){
+var renderView = function(title, category, req, res, api){
   dataProvider.shopkins().then(function(data){
     var shopkins = _.filter(data, function(shopkin){
       return shopkin.category == category;
     });
-    res.render("list", {shopkins: shopkins, tab: category, title: title});  
+    if(api)
+      res.send(shopkins);
+    else
+      res.render("list", {shopkins: shopkins, tab: category, title: title});  
   });
 };
 
@@ -53,6 +56,10 @@ _.each(categories, function(category){
   app.get("/" + category.id, function(req, res){
     renderView(category.name, category.id, req, res);  
   });
+  app.get("/api/" + category.id, function(req, res){
+    renderView(category.name, category.id, req, res, true);  
+  });
 });
+
 
 app.listen(process.env.PORT);
