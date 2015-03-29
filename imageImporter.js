@@ -19,10 +19,7 @@ function ensureDirectories(){
 
 function process() {
   ensureDirectories();
-  provider.shopkins().then(function(data) {
-    var withImages = _.filter(data, function(d) {
-      return d.imageUrl
-    });
+  provider.shopkins(true).then(function(withImages) {
     _.each(withImages, function(shopkin) {
       var imageUrl = shopkin.imageUrl;
       var number = shopkin.number;

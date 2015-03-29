@@ -4,7 +4,8 @@ var _ = require("underscore");
 var dataProvider = require("./data/provider");
 var imageImporter = require("./imageImporter");
 
-imageImporter.process();
+if(process.env.PROCESS)
+  imageImporter.process();
 
 var categories = [
   { 
@@ -53,7 +54,7 @@ app.use(function(req, res, next){
 });
 
 app.get("/", function(req, res){
-  res.render("index", {tab: "home", title: "Home"});  
+  res.render("index");  
 });
 
 _.each(categories, function(category){
