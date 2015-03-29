@@ -8,8 +8,8 @@ block content
             h4= shopkin.name 
         .row
           .col-md-3
-            if shopkin.imageUrl
-              img(src="/processed/"+ shopkin.number +".jpg")
+            if shopkin.processedImageUrl
+              img(src="/processed/"+ shopkin.processedImageUrl)
           .col-md-3
             = shopkin.number
           .col-md-2.col-md-offset-4

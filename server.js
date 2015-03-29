@@ -4,6 +4,7 @@ var _ = require("underscore");
 var dataProvider = require("./data/provider");
 var imageImporter = require("./imageImporter");
 var db = require("./config/db/db");
+var Shopkin = require("./models/models").Shopkin;
 
 db.then(
   function(res){
@@ -43,10 +44,7 @@ app.locals.pretty = true;
 app.set("view engine", "jade");
 
 var renderView = function(title, category, req, res, api){
-  dataProvider.shopkins().then(function(data){
-    var shopkins = _.filter(data, function(shopkin){
-      return shopkin.category == category;
-    });
+  Shopkin.find({category: category}).then(function(shopkins){
     if(api)
       res.send(shopkins);
     else
