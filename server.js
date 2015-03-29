@@ -3,6 +3,16 @@ var fs = require("fs");
 var _ = require("underscore");
 var dataProvider = require("./data/provider");
 var imageImporter = require("./imageImporter");
+var db = require("./config/db/db");
+
+db.then(
+  function(res){
+    console.log(res);
+  },
+  function(err){
+    console.log(err);
+  }
+);
 
 if(process.env.PROCESS)
   imageImporter.process();

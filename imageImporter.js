@@ -4,6 +4,7 @@ var request = require("request");
 var fs = require("fs");
 var path = require("path");
 var processor = require("./imageProcessor");
+var Shopkin = require("./models/models").Shopkin;
 module.exports = {
   process: process
 };
@@ -19,6 +20,7 @@ function ensureDirectories(){
 
 function process() {
   ensureDirectories();
+  Shopkin.seed();
   provider.shopkins(true).then(function(withImages) {
     _.each(withImages, function(shopkin) {
       var imageUrl = shopkin.imageUrl;
