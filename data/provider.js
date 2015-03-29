@@ -16,7 +16,7 @@ function shopkins(imagesOnly){
     var shopkins = JSON.parse(data.toString()).shopkins;
     if(imagesOnly){
       shopkins = _.filter(shopkins, function(d) {
-        return d.imageUrl
+        return d.imageUrl;
       });
     }
     dfd.resolve(shopkins);

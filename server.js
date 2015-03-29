@@ -14,7 +14,7 @@ db.then(
   }
 );
 
-if(process.env.PROCESS)
+if(!process.env.SKIP_PROCESS)
   imageImporter.process();
 
 var categories = [

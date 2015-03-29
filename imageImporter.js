@@ -20,20 +20,22 @@ function ensureDirectories(){
 
 function process() {
   ensureDirectories();
-  Shopkin.seed();
-  provider.shopkins(true).then(function(withImages) {
-    _.each(withImages, function(shopkin) {
-      var imageUrl = shopkin.imageUrl;
-      var number = shopkin.number;
-      var extension = path.extname(imageUrl).toLowerCase();
-
-      request(shopkin.imageUrl).pipe(
-        fs.createWriteStream(__dirname + "/images/raw/" + number + extension)
-      ).on("finish", function() {
-        processor.process(this.path).then(function(imagePath){
-          console.log(imagePath + " created");
+  Shopkin.seed().then(function(){
+    provider.shopkins(true).then(function(withImages) {//start
+      _.each(withImages, function(shopkin) {
+        var imageUrl = shopkin.imageUrl;
+        var number = shopkin.number;
+        var extension = path.extname(imageUrl).toLowerCase();
+  
+        request(shopkin.imageUrl).pipe(
+          fs.createWriteStream(__dirname + "/images/raw/" + number + extension)
+        ).on("finish", function() {
+          processor.process(this.path, number).then(function(imagePath){
+            console.log(imagePath + " created");
+          });
         });
       });
-    });
+    });//end
+    
   });
 }
