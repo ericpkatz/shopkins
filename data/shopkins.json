@@ -248,113 +248,131 @@
             "name": "Slick Breadstick",
             "number": "2-035",
             "category": "bakery",
-            "value": "common"
+            "value": "common",
+            "imageUrl" :"http://i.ebayimg.com/00/s/Nzg4WDcyNA==/z/c3UAAOSwQJhUh5MB/$_1.JPG"
         },
         {
             "name": "Mary Muffin",
             "number": "2-036",
             "category": "bakery",
             "value": "ultra_rare",
-            "glitz": true
+            "glitz": true,
+            "imageUrl" : "http://ecx.images-amazon.com/images/I/51JnQXzC0nL._SX355_.jpg"
         },
         {
             "name": "Carrie Carrot Cake",
             "number": "2-037",
             "category": "bakery",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl" : "http://i.ebayimg.com/00/s/Nzg3WDc0Nw==/z/LAAAAOSwuMFUfhrz/$_1.JPG"
         },
         {
             "name": "Mary Meringue",
             "number": "2-038",
             "category": "bakery",
             "value": "ultra_rare",
-            "glitz": true
+            "glitz": true,
+            "imageUrl" : "http://thumbs.ebaystatic.com/d/l225/m/mvn_qCs_J2bQ0BkguTWwVfA.jpg"
         },
         {
             "name": "Pecanna Pie",
             "number": "2-039",
             "category": "bakery",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl": "http://i.ebayimg.com/00/s/NzIyWDEwMDE=/z/8fEAAOSwzrxUtYKN/$_35.JPG"
         },
         {
             "name": "Choco Lava",
             "number": "2-040",
             "category": "bakery",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://i.ebayimg.com/00/s/Nzg2WDc1OQ==/z/Uu4AAOSw7ThUc2CV/$_1.JPG"
         },
         {
             "name": "Fifi Fruittart",
             "number": "2-041",
             "category": "bakery",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl":"http://thumbs4.ebaystatic.com/m/mVql1CxaTKeRlpj6jX1Zjig/140.jpg"
         },
         {
             "name": "Danny Danish",
             "number": "2-042",
             "category": "bakery",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://ecx.images-amazon.com/images/I/411%2Ba8AgI8L._SY355_.jpg"
         },
         {
             "name": "Cupcake Chic",
             "number": "2-043",
             "category": "bakery",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl": "http://i.ebayimg.com/00/s/NjAwWDQ4MA==/z/JmEAAOSw6aVUp1om/$_35.JPG"
         },
         {
             "name": "Slick Breadstick",
             "number": "2-044",
             "category": "bakery",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://i.ebayimg.com/00/s/Nzg3WDY4OQ==/z/lpMAAOSwQJhUfhrv/$_1.JPG"
         },
         {
             "name": "Mary Muffin",
             "number": "2-045",
             "category": "bakery",
             "value": "ultra_rare",
-            "glitz": true
+            "glitz": true,
+            "imageUrl":"http://galleryplus.ebayimg.com/ws/web/231404329292_1_0_1/1000x1000.jpg"
         },
         {
             "name": "Carrie Carrot Cake",
             "number": "2-046",
             "category": "bakery",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl" : "http://thumbs3.picclick.com/d/l400/pict/221700921486_/Shopkins-Series-Season-2-Bakery-CARRIE-CARROT-CAKE-2-046.jpg"
         },
         {
             "name": "Mary Meringue",
             "number": "2-047",
             "category": "bakery",
             "value": "ultra_rare",
-            "glitz": true
+            "glitz": true,
+            "imageUrl": "http://cdn-s3-2.wanelo.com/product/image/18981070/x354.jpg"
         },
         {
             "name": "Pecanna Pie",
             "number": "2-048",
             "category": "bakery",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl": "http://i.ebayimg.com/00/s/NzgyWDEwMDA=/z/eEMAAOSwZjJU4Qf5/$_1.JPG"
         },
         {
             "name": "Choco Lava",
             "number": "2-049",
             "category": "bakery",
-            "value": "common"
+            "value": "common",
+            "imageUrl": "http://i.ebayimg.com/00/s/Nzg2WDg2NQ==/z/5wAAAOSw1ZBUtYaK/$_1.JPG"
         },
         {
             "name": "Fifi Fruittart",
             "number": "2-050",
             "category": "bakery",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl": "http://www.toygeniesurprises.com/file/2014/12/Shopkins-Season-2-Fifi-Fruit-Tart-2-050.png"
         },
         {
             "name": "Danny Danish",
             "number": "2-051",
             "category": "bakery",
-            "value": "common"
+            "value": "common",
+            "imageUrl" : "http://i.ebayimg.com/00/s/MTE0MFgxNjAw/z/d4cAAOSwa39Ur~an/$_35.JPG"
         },
         {
             "name": "Cupcake Chic",
             "number": "2-052",
             "category": "bakery",
-            "value": "rare"
+            "value": "rare",
+            "imageUrl": "http://i.ebayimg.com/00/s/NjAwWDQ3MQ==/z/TJcAAOSw7ThUp1pf/$_1.JPG"
         },
         {
             "name": "Poppy Corn",
