@@ -12,8 +12,8 @@ app.config(function($routeProvider, $locationProvider){
   $locationProvider.html5Mode({enabled: true, requireBase: false});
 });
 app.factory("HeaderSvc", function($window){
-  _categories = $window.categories;
-  _tab = ""
+  var _categories = $window.categories;
+  var _tab = "";
   
   return {
     categories: _categories,
