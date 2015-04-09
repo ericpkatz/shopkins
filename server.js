@@ -1,22 +1,8 @@
 var express = require("express");
-var fs = require("fs");
-var _ = require("underscore");
-var dataProvider = require("./data/provider");
-var imageImporter = require("./imageImporter");
-var db = require("./config/db/db");
 var Shopkin = require("./models/models").Shopkin;
+var _ = require("underscore");
 
-db.then(
-  function(res){
-    console.log(res);
-  },
-  function(err){
-    console.log(err);
-  }
-);
-
-if(!process.env.SKIP_PROCESS)
-  imageImporter.process();
+Shopkin.seed();
 
 var categories = [
   { 

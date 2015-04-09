@@ -9,21 +9,20 @@ var ShopkinSchema = new mongoose.Schema({
   processedImageUrl: String,
   category: String,
   value: String,
-  glitz: Boolean
+  glitz: Boolean,
+  season: Number
 });
 
 ShopkinSchema.statics.seed = function(){
-  var dfd = Q.defer()
   db.then(function(){
-    Shopkin.remove({}).then(function(){
-      provider.shopkins().then(function(shopkins){
-        Shopkin.create(shopkins).then(function(res){
-          dfd.resolve();
+    provider.shopkins(true).then(function(shopkins){
+      shopkins.forEach(function(shopkin){
+        Shopkin.update({number: shopkin.number}, shopkin, {upsert: true}, function(err, res){
+          console.log(res);
         });
       });
     });
   });
-  return dfd.promise;
 };
 
 var Shopkin = mongoose.model("Shopkin", ShopkinSchema);

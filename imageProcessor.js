@@ -1,14 +1,50 @@
 var lwip = require("lwip");
 var path = require("path");
 var Q = require("q");
-var Shopkin = require("./models/models").Shopkin;
+var _ = require("underscore");
 
 module.exports = {
-  process: process
+  process: process,
+  resize: resize
 };
 
-function process(imagePath, number){
+function resize(shopkins){
   var dfd = Q.defer();
+  var withImages = _.filter(shopkins, function(shopkin){
+    return shopkin.rawImageUrl;
+  });
+  
+  var promises = withImages.map(function(shopkin){
+    var dfd = Q.defer();
+    var imageName = shopkin.rawImageUrl;
+    var rawPath = __dirname + "/images/raw/" + imageName;
+    var processedPath = __dirname + "/images/processed/" + imageName;
+    lwip
+      .open(rawPath, function(err, image) {
+        image
+        .batch()
+          .resize(100, 100, "linear")
+            .writeFile(processedPath, function(err) {
+              if(!err){
+                shopkin.processedImageUrl = imageName;
+                console.log("image resized for " + shopkin.name)
+                dfd.resolve();
+              }
+              else{
+                console.log(err);
+              }
+            });
+    });//end
+    return dfd.promise; 
+  }); 
+  Q.all(promises).then(function(){
+    dfd.resolve(shopkins);
+  });
+  return dfd.promise;
+}
+
+function process(imagePath, number){
+  var dfd = Q.defer();  
   var imageName = path.basename(imagePath);
   var processedName = __dirname + "/images/processed/" + imageName;
   var baseProcessedName = path.basename(processedName);
@@ -26,6 +62,6 @@ function process(imagePath, number){
           });
         }
       });
-  });
+  });//end
   return dfd.promise;
 }

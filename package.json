@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "del": "^1.1.1",
     "express": "^4.12.3",
     "gulp": "^3.8.11",
     "jade": "^1.9.2",

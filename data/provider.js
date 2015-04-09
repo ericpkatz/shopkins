@@ -3,22 +3,30 @@ var Q = require("q");
 var _ = require("underscore");
 module.exports = {
   shopkins: shopkins,
-  update: update
+  update: update, 
+  save: save
 };
+
+function save(shopkins){
+  var dfd = Q.defer();
+  var data = JSON.stringify({shopkins: shopkins},null, 4);
+  fs.writeFile(__dirname + "/shopkins_processed.json", data, function(){
+      dfd.resolve(shopkins);
+  });
+  return dfd.promise;
+}
 
 function update(shopkin){
   
 }
 
-function shopkins(imagesOnly){
+function shopkins(processed){
   var dfd = Q.defer();
-  fs.readFile(__dirname + "/shopkins.json", function(err, data){
+  var file = "/shopkins.json";
+  if(processed)
+    file ="/shopkins_processed.json";
+  fs.readFile(__dirname + file, function(err, data){
     var shopkins = JSON.parse(data.toString()).shopkins;
-    if(imagesOnly){
-      shopkins = _.filter(shopkins, function(d) {
-        return d.imageUrl;
-      });
-    }
     dfd.resolve(shopkins);
   });
   return dfd.promise;
