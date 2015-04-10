@@ -7,6 +7,7 @@ if(!process.env.CONN)
 else{
   mongoose.connect(process.env.CONN);
   mongoose.connection.once("open", function(){
+    console.log("connection opened");
     dfd.resolve("CONNECTED");
   });
   mongoose.connection.on("error", function(err){

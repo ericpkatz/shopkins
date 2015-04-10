@@ -1,11 +1,12 @@
 var gulp = require("gulp");
+var nodemon = require("nodemon");
 var jsonProvider = require("./data/provider");
 var _ = require("underscore");
-var fs = require("fs");
 var del = require("del");
 var importer = require("./imageImporter");
 var processor = require("./imageProcessor");
 var Q = require("q");
+
 
 gulp.task("images:clean", function(cb){
   function clean(){
@@ -54,6 +55,16 @@ gulp.task("db:update", ["images:clean", "images:download", "images:process"], fu
   update();
 });
 
-gulp.task("default", ["images:clean", "images:download", "images:process", "db:update"], function(){
+gulp.task("processImages", ["images:clean", "images:download", "images:process", "db:update"], function(){
   console.log("DONE");
+});
+
+gulp.task("dev", ["processImages"], function(){
+ nodemon({
+   tasks: ["processImages"],
+   script: "server.js",
+   ext: "js json",
+   ignore: ["shopkins_processed.json"],
+   env: {"CONN" : "mongodb:/localhost/shopkins"}
+ }); 
 });

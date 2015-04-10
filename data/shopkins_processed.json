@@ -5,7 +5,7 @@
             "number": "1-001",
             "category": "fruit_and_veg",
             "value": "common",
-            "imageUrl": "http://i.ebayimg.com/00/s/MTEwOFgxNjAw/z/mtcAAOSwbqpTwpvG/$_35.JPG",
+            "imageUrl": "http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/yB0AAOSwQJhUcjwi/$_35.JPG",
             "rawImageUrl": "1-001.jpg",
             "processedImageUrl": "1-001.jpg",
             "season": "1"
@@ -118,8 +118,6 @@
             "category": "fruit_and_veg",
             "value": "common",
             "imageUrl": "http://thumbs2.picclick.com/d/l400/pict/221719797913_/Shopkins-Series-Season-2-Fruit-Veg-JUICY-ORANGE.jpg",
-            "rawImageUrl": "2-011.jpg",
-            "processedImageUrl": "2-011.jpg",
             "season": "2"
         },
         {
@@ -138,8 +136,6 @@
             "category": "fruit_and_veg",
             "value": "common",
             "imageUrl": "http://thumbs1.ebaystatic.com/d/l225/m/mWNRFEv943RZJDryPhy27Pw.jpg",
-            "rawImageUrl": "2-013.jpg",
-            "processedImageUrl": "2-013.jpg",
             "season": "2"
         },
         {
@@ -158,8 +154,6 @@
             "category": "fruit_and_veg",
             "value": "common",
             "imageUrl": "http://thumbs4.picclick.com/d/l400/pict/191512727275_/NEW-Shopkins-Season-2-Moose-Toys-2-015-Purple.jpg",
-            "rawImageUrl": "2-015.jpg",
-            "processedImageUrl": "2-015.jpg",
             "season": "2"
         },
         {
@@ -229,8 +223,6 @@
             "value": "ultra_rare",
             "glitz": true,
             "imageUrl": "http://thumbs4.picclick.com/d/l400/pict/221723245119_/Shopkins-Series-Season-2-Homewares-ZAPPY-MICROWAVE-2-022-Ultra.jpg",
-            "rawImageUrl": "2-022.jpg",
-            "processedImageUrl": "2-022.jpg",
             "season": "2"
         },
         {
@@ -280,8 +272,6 @@
             "category": "homewares",
             "value": "rare",
             "imageUrl": "http://thumbs2.picclick.com/d/l400/pict/400888101521_/NEW-Shopkins-Season-2-Moose-Toys-Rare-2-027.jpg",
-            "rawImageUrl": "2-027.jpg",
-            "processedImageUrl": "2-027.jpg",
             "season": "2"
         },
         {
@@ -486,8 +476,6 @@
             "value": "ultra_rare",
             "glitz": true,
             "imageUrl": "http://cdn-s3-2.wanelo.com/product/image/18981070/x354.jpg",
-            "rawImageUrl": "2-047.jpg",
-            "processedImageUrl": "2-047.jpg",
             "season": "2"
         },
         {
@@ -516,8 +504,6 @@
             "category": "bakery",
             "value": "rare",
             "imageUrl": "http://www.toygeniesurprises.com/file/2014/12/Shopkins-Season-2-Fifi-Fruit-Tart-2-050.png",
-            "rawImageUrl": "2-050.png",
-            "processedImageUrl": "2-050.png",
             "season": "2"
         },
         {
