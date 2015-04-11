@@ -31,7 +31,7 @@
             "season": "1"
         },
         {
-            "name": "Pineaple Crush",
+            "name": "Pineapple Crush",
             "number": "1-004",
             "category": "fruit_and_veg",
             "value": "common",
@@ -270,6 +270,8 @@
             "category": "fruit_and_veg",
             "value": "common",
             "imageUrl": "http://thumbs1.ebaystatic.com/d/l225/m/mWNRFEv943RZJDryPhy27Pw.jpg",
+            "rawImageUrl": "2-013.jpg",
+            "processedImageUrl": "2-013.jpg",
             "season": "2"
         },
         {
@@ -308,6 +310,8 @@
             "category": "homewares",
             "value": "common",
             "imageUrl": "http://thumbs4.ebaystatic.com/d/l225/m/mpMbiM1e5ykslHJsIzLK0SQ.jpg",
+            "rawImageUrl": "2-017.jpg",
+            "processedImageUrl": "2-017.jpg",
             "season": "2"
         },
         {
@@ -408,6 +412,8 @@
             "category": "homewares",
             "value": "rare",
             "imageUrl": "http://thumbs2.picclick.com/d/l400/pict/400888101521_/NEW-Shopkins-Season-2-Moose-Toys-Rare-2-027.jpg",
+            "rawImageUrl": "2-027.jpg",
+            "processedImageUrl": "2-027.jpg",
             "season": "2"
         },
         {
@@ -601,6 +607,8 @@
             "category": "bakery",
             "value": "rare",
             "imageUrl": "http://thumbs3.picclick.com/d/l400/pict/221700921486_/Shopkins-Series-Season-2-Bakery-CARRIE-CARROT-CAKE-2-046.jpg",
+            "rawImageUrl": "2-046.jpg",
+            "processedImageUrl": "2-046.jpg",
             "season": "2"
         },
         {
