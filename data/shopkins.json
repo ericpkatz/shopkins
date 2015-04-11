@@ -8,6 +8,99 @@
             "imageUrl": "http://i.ebayimg.com/00/s/MTA2MlgxNjAw/z/yB0AAOSwQJhUcjwi/$_35.JPG"
         },
         {
+            "name": "Rockin' Broc",
+            "number": "1-002",
+            "category": "fruit_and_veg",
+            "value": "common",
+            "imageUrl": "http://thumbs4.picclick.com/d/l400/pict/400742227195_/NEW-Shopkins-Season-1-Moose-Toys-1-002-Green.jpg"
+        },
+        {
+            "name": "Strawberry Kiss",
+            "number": "1-003",
+            "category": "fruit_and_veg",
+            "value": "rare",
+            "imageUrl": "http://i.ebayimg.com/00/s/Nzg2WDkxOA==/z/YEYAAOSwFAZTuHpM/$_1.JPG"
+        },
+        {
+            "name": "Pineaple Crush",
+            "number": "1-004",
+            "category": "fruit_and_veg",
+            "value": "common",
+            "imageUrl": "http://thumbs3.picclick.com/d/l400/pict/191247856750_/NEW-Shopkins-Season-1-Moose-Toys-1-004-Purple.jpg"
+        },
+        {
+            "name": "Melonie Pips",
+            "number": "1-005",
+            "category": "fruit_and_veg",
+            "value": "ultra_rare",
+            "glitz": true,
+            "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/419jdqb34gL.jpg"
+        },
+        {
+            "name": "Miss Mushy-Moo",
+            "number": "1-006",
+            "category": "fruit_and_veg",
+            "value": "common",
+            "imageUrl": "http://ecx.images-amazon.com/images/I/81qINMuGHTL._SY355_.jpg"
+        },
+        {
+            "name": "Posh Pear",
+            "number": "1-007",
+            "category": "fruit_and_veg",
+            "value": "common",
+            "imageUrl": "https://s-media-cache-ak0.pinimg.com/236x/c7/9b/b3/c79bb35b0b7ce4570415327f497761c9.jpg"
+        },
+        {
+            "name": "Apple Blossom",
+            "number": "1-008",
+            "category": "fruit_and_veg",
+            "value": "common",
+            "imageUrl": "http://thumbs.ebaystatic.com/d/l140/m/mNXoQZuv0KevutQjDZG1Dfw.jpg"
+        },
+        {
+            "name": "Rockin' Broc",
+            "number": "1-009",
+            "category": "fruit_and_veg",
+            "value": "common",
+            "imageUrl": "http://i.ebayimg.com/00/s/Nzg2WDg5Mg==/z/xM4AAOSwwNVTuHMW/$_1.JPG"
+        },
+        {
+            "name": "Strawberry Kiss",
+            "number": "1-010",
+            "category": "fruit_and_veg",
+            "value": "rare",
+            "imageUrl": "http://thumbs.ebaystatic.com/d/l140/m/m5AcXM3gbDxPs1K4bcIJOgQ.jpg"
+        },
+        {
+            "name": "Pineapple Crush",
+            "number": "1-011",
+            "category": "fruit_and_veg",
+            "value": "common",
+            "imageUrl": "http://i.ebayimg.com/00/s/Nzg2WDgwMg==/z/pIAAAOSwFL9TuIUb/$_1.JPG?set_id=8800005007"
+        },
+        {
+            "name": "Melonie Pips",
+            "number": "1-012",
+            "category": "fruit_and_veg",
+            "value": "ultra_rare",
+            "glitz": true,
+            "imageUrl": "http://thumbs2.picclick.com/d/l400/pict/121608279385_/Shopkins-Season-1-NEW-1-012-ULTRA-RARE-Melonie.jpg"
+        },
+        {
+            "name": "Miss Mushy Moo",
+            "number": "1-013",
+            "category": "fruit_and_veg",
+            "value": "common",
+            "imageUrl": "http://i.ebayimg.com/00/s/Nzg2WDk3Ng==/z/w6IAAOSwirZTuHDH/$_1.JPG"
+        },
+        {
+            "name": "Posh Pear",
+            "number": "1-014",
+            "category": "fruit_and_veg",
+            "value": "common",
+            "imageUrl": "http://i.ebayimg.com/00/s/Nzg3WDc2NQ==/z/qNwAAOSwMzVTxDeM/$_35.JPG"
+        },
+        {
             "name": "Chloe Flower",
             "number": "2-001",
             "category": "fruit_and_veg",
