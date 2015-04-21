@@ -21,6 +21,12 @@
             </a>
         </li>
       </ul>
+      <div class="navbar-right navbar-form">
+        <div>
+          <button ng-show="user.authenticated()" ng-click="logout()" class="btn btn-warning btn-sm">Logout</button>
+          <a ng-hide="user.authenticated()" href="/login" class="btn btn-primary btn-sm">Login</a>
+        </div>
+      </div>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>

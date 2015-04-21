@@ -27,6 +27,13 @@ ShopkinSchema.statics.seed = function(){
 
 var Shopkin = mongoose.model("Shopkin", ShopkinSchema);
 
+var UserSchema = new mongoose.Schema({
+  username: String,
+  password: String
+});
+
+var User = mongoose.model("User", UserSchema);
 module.exports = {
-  Shopkin: Shopkin
+  Shopkin: Shopkin,
+  User: User
 };

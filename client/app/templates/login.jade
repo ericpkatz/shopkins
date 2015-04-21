@@ -1,0 +1,8 @@
+form
+  .form-group
+    label(for="user_username") Username
+    input.form-control(id="user_username" ng-model="user.username")
+  .form-group
+    label(for="user_password") Password
+    input.form-control(type="password" id="user_password" ng-model="user.password")
+  button.btn.btn-default(ng-click="login()") Login
