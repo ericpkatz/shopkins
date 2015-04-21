@@ -118,8 +118,6 @@
             "value": "ultra_rare",
             "glitz": true,
             "imageUrl": "http://thumbs2.picclick.com/d/l400/pict/121608279385_/Shopkins-Season-1-NEW-1-012-ULTRA-RARE-Melonie.jpg",
-            "rawImageUrl": "1-012.jpg",
-            "processedImageUrl": "1-012.jpg",
             "season": "1"
         },
         {
@@ -648,6 +646,8 @@
             "category": "bakery",
             "value": "rare",
             "imageUrl": "http://www.toygeniesurprises.com/file/2014/12/Shopkins-Season-2-Fifi-Fruit-Tart-2-050.png",
+            "rawImageUrl": "2-050.png",
+            "processedImageUrl": "2-050.png",
             "season": "2"
         },
         {

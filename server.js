@@ -35,7 +35,7 @@ app.locals.pretty = true;
 app.set("view engine", "jade");
 
 var renderView = function(title, category, req, res, api){
-  Shopkin.find({category: category}).sort("number").then(function(shopkins){
+  Shopkin.find({category: category}).sort("number").populate("ownedBy").then(function(shopkins){
     if(api)
       res.send(shopkins);
     else

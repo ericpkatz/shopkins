@@ -10,7 +10,8 @@ var ShopkinSchema = new mongoose.Schema({
   category: String,
   value: String,
   glitz: Boolean,
-  season: Number
+  season: Number,
+  ownedBy: [{ type: mongoose.Schema.ObjectId, ref: "User"}]
 });
 
 ShopkinSchema.statics.seed = function(){
@@ -29,7 +30,8 @@ var Shopkin = mongoose.model("Shopkin", ShopkinSchema);
 
 var UserSchema = new mongoose.Schema({
   username: String,
-  password: String
+  password: String,
+  shopkinsOwned: [{ type: mongoose.Schema.ObjectId, ref: "Shopkin"}]
 });
 
 var User = mongoose.model("User", UserSchema);
