@@ -4,7 +4,7 @@
   "description": "a shopkins website",
   "main": "server.js",
   "scripts": {
-    "test": "karma start",
+    "test": "karma start --single-run",
     "start": "node server.js"
   },
   "author": "",
