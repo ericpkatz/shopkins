@@ -43,7 +43,7 @@ var renderView = function(title, category, req, res, api){
   });
 };
 
-app.get("/client/app/templates/:file_name.jade", function(req, res, next){
+app.get("*.jade", function(req, res, next){
   fs.readFile(__dirname + req.url, function(err, data){
     res.send(jade.render(data.toString())); 
   }); 

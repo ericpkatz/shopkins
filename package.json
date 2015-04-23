@@ -23,6 +23,11 @@
     "underscore": "^1.8.2"
   },
   "devDependencies": {
-    "gulp-nodemon": "^2.0.2"
+    "gulp-nodemon": "^2.0.2",
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-cli": "0.0.4",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4"
   }
 }
