@@ -21,7 +21,8 @@ module.exports = function(config) {
       'client/app/app.js',
       'client/app/header.js',
       'client/app/auth.js',
-      'test/ng/header-svc-spec.js'
+      'test/ng/helper.js',
+      'test/ng/*spec.js'
     ],
 
 

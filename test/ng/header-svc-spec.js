@@ -1,33 +1,44 @@
-describe("app", function(){
-  beforeEach(module("app"));
-  describe("NavSvc", function(){
-    beforeEach(inject(function($window){
-      $window.categories = [
-        {},
-        {}
-      ]; 
-    }));
-    describe("$window.categories has a length of two", function(){
-      var svc;
-      beforeEach(inject(function(HeaderSvc){
-        svc = HeaderSvc;
-      }));
-      describe("tabs", function(){
-        it("has two tabs", function(){
-          expect(svc.categories.length).toEqual(2);
-        });
+describe("NavSvc", function(){
+  describe("categories", function(){
+    var svc;
+    describe("when the window exposes two categories", function(){
+      beforeEach(function(){
+        var _window = injector.get("$window");
+        _window.categories = [
+          {},
+          {}
+        ];
+        svc = injector.get("HeaderSvc");
       });
-      describe("setTab", function(){
-        var tabValue;
-        beforeEach(function(){
-          svc.setTab("foo");
-          tabValue = svc.getTab();
-        });
-        it("changes the tab value", function(){
-          expect(tabValue).toEqual("foo"); 
-        });
-        
+      it("has two tabs", function(){
+        expect(svc.categories.length).toEqual(2);
       });
     });
+    describe("when the window exposes three categories", function(){
+      beforeEach(function(){
+        var _window = injector.get("$window");
+        _window.categories = [
+          {},
+          {},
+          {}
+        ];
+        svc = injector.get("HeaderSvc");
+      });
+      it("has three tabs", function(){
+        expect(svc.categories.length).toEqual(3);
+      });
+    });
+  });
+  describe("setTab", function(){
+    var tabValue;
+    beforeEach(function(){
+      var svc = injector.get("HeaderSvc");
+      svc.setTab("foo");
+      tabValue = svc.getTab();
+    });
+    it("changes the tab value", function(){
+      expect(tabValue).toEqual("foo"); 
+    });
+    
   });
 });
